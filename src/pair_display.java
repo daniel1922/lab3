@@ -19,7 +19,7 @@ public class pair_display { //public class name
 		int x = Integer.parseInt(number); //
 	
 	//Loop through the integer from the user
-		System.out.println("Number  " + "Squared  "  + "Cubed\n" + "====" + "===="+ "====");
+		System.out.println("Number  " + "Squared  "  + "Cubed\n");
 		for( int i = 0; i <= x ; i++){
 			System.out.println( i + "       " + i*i + "         " +  i*i*i);
 
