@@ -10,6 +10,7 @@ public class pair_display {
 		String loop;
 
 	//Welcome the user to the App	
+		System.out.println("Learn your squares and cubes! \n");
 	
 	//Ask the user for an interger
 	
