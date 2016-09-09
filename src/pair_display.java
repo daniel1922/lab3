@@ -12,8 +12,13 @@ public class pair_display {
 	//Welcome the user to the App	
 		System.out.println("Learn your squares and cubes! \n");
 	
-	//Ask the user for an interger
-	
+	do{ 	
+	//Ask the user for an integer
+		System.out.println("Enter and interger: ");
+		number = input.nextLine();
+		//changed the string to a number
+		int x = Integer.parseInt(number);
+		
 	//Loop through the interget from the usergi
 	}
 
