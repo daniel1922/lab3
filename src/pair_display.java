@@ -11,8 +11,7 @@ public class pair_display { //public class name
 
 	//Welcome the user to the App	
 		System.out.println("Learn your squares and cubes! \n"); //printing out the statement. The \n makes a new line
-	
-	do{ 	
+		
 	//Ask the user for an integer
 		System.out.println("Enter and interger: ");
 		number = input.nextLine(); //string
@@ -20,7 +19,7 @@ public class pair_display { //public class name
 		int x = Integer.parseInt(number); //
 	
 	//Loop through the integer from the user
-		System.out.println("Number  " + "Squared  "  + "Cubed\n" + "====    " + "====     "+ "====");
+		System.out.println("Number  " + "Squared  "  + "Cubed\n" + "====" + "===="+ "====");
 		for( int i = 0; i <= x ; i++){
 			System.out.println( i + "       " + i*i + "         " +  i*i*i);
 
@@ -28,11 +27,13 @@ public class pair_display { //public class name
 			
 			System.out.println("Continue(yes/no): ");
 				loop = input.nextLine();
-					
+				while(loop.equalsIgnoreCase("yes"));{ 			
 		}
+		}
+		}
+	}
 		
-	} 
- 	while(loop.IgnoreCase("yes"));
-		}
+ 	
+		
 
-}
+
